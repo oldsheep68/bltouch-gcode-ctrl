@@ -1,0 +1,9 @@
+[target.thumbv7em-none-eabihf]
+# runner = 'probe-run --chip stm32f401'
+runner = 'probe-run --chip stm32f411CEUx'  # blackpill gross
+rustflags = [
+   "-C", "link-arg=-Tlink.x",
+]
+
+[build]
+target = "thumbv7em-none-eabihf"

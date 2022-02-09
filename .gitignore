@@ -1,0 +1,20 @@
+**/*.rs.bk
+.#*
+.gdb_history
+Cargo.lock
+target/
+
+# editor files
+.vscode/*
+!.vscode/*.md
+!.vscode/*.svd
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+openocd.gdb_orig
+openocd.cfg_orig
+.cargo/_config.toml_back
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/README.md
