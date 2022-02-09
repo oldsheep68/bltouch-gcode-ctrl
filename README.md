@@ -3,13 +3,15 @@
 
 
 ## This is a Rust repository
-To compile it, you must install Rust first, follow the link below
+To compile it, you must install Rust first, follow this link:
 https://www.rust-lang.org/tools/install
 
 As the project is an embedded one, more additions are needed, at least those and probably some more:
+
 rustup target install thumbv7em-none-eabihf
 
 cargo install probe-run
+
 cargo install flip-link  (recomended)
 
 The embedded book has lot's of good informations:
@@ -20,7 +22,7 @@ https://doc.rust-lang.org/stable/embedded-book/
 cargo build
 
 ## Download and run it
-cargo run
+cargo run   or  cargo run --release
 
 ## Connection for downloading
 ST-Link V2 should be enough
@@ -56,3 +58,6 @@ Value Type: Double
 ON Value 1.000
 OFF Value 16.000
 // this is due to the fact, that openpnp-python interface always uses the double actuator, as of my experiance
+
+# Binary image
+you can also just download the binary image to a blackpill stm32f411-type
