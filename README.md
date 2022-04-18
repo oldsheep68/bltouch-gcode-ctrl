@@ -1,5 +1,5 @@
 # bltouch-gcode-ctrl
-# `SW fro blackpill board to controll 3dtouch with gcode`
+# `SW for blackpill board to controll 3dtouch with gcode`
 
 
 ## This is a Rust repository
